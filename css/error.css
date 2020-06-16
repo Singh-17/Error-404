@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.banner{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banner h1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ffF;
+	font-size: 50vw;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	line-height: 100vh;
+	mix-blend-mode: screen;
+}
+
+.button{
+	display: flex;
+	position: absolute;  
+	top: 90%;
+	left: 80%;
+	transform: translate(-50% ,-50%);
+}
+
+.btn{
+	border: 4px solid #fff;
+	padding: 10px 20px;
+	color: #fff;
+	background: linear-gradient(90deg,#755bea,#ff72c0) ;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background: linear-gradient(90deg,#f77bca,#7f52e0) ;
+	color: #000;
